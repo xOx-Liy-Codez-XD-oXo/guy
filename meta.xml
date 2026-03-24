@@ -1,0 +1,9 @@
+<?xml version=1.0 encoding=UTF-8 standalone=yes?>
+<app>
+	<name>i wanna be the guy</name>
+	<coder>lliy</coder>
+	<version>1.0</version>
+	<short_description>Music animation</short_description>
+	<long_description>animation for the song 'i wanna be the guy' by twikipedia!
+press HOME to stop the animation and exit.</long_description>
+</app>

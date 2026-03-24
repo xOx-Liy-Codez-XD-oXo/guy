@@ -1,0 +1,5 @@
+mkdir guy
+cp guy*.dol guy/boot.dol
+cp meta.xml guy/meta.xml
+cp source/guydat.bin guy/guydat.bin
+cp icon.png guy/icon.png
