@@ -1,6 +1,8 @@
 # i wanna be the guy
 animated music thing for the wii
 
+<img width="1712" height="960" alt="screenie collage" src="https://github.com/user-attachments/assets/4dd6f625-723d-4f2c-a3e6-7077f5834b71" />
+
 [watch the video](https://youtu.be/58Q8cY-_kes) - [project page](https://boxy.neocities.org/stuff/guy/)
 
 ## compiling
