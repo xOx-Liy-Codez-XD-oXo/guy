@@ -138,7 +138,7 @@ int main(int argc,char **argv) {
 			break;
 	}
 
-	  u8 perfectfilter[7] = { 0, 0, 21,21, 21,0, 0 };
+	  u8 perfectfilter[7] = { 0, 0, 21, 22, 21, 0, 0 };
 	//                           v center line
 	//u8 vfilter[7] = { 6, 7, 9, 10, 9, 7, 6 };
 	//u8 vfilter[7] = { 0, 0, 0, 63, 0, 0, 0 };
@@ -1214,6 +1214,10 @@ int main(int argc,char **argv) {
 		procedtex_randomtex_update();
 
 		//Create matcap
+		//if you take this code, uncomment this line
+		//GX_SetCopyFilter(GX_FALSE, NULL, GX_TRUE, perfectfilter);
+		//i wont because it'd significantly change the appearance of the demo from as it was released
+		//but it is objectively correct
 		setlight(view, background, scene);
 		GX_SetChanAmbColor(GX_COLOR0A0,LC_BLACK); //Add ambient back in tev ..
 		GX_SetChanMatColor(GX_COLOR0A0,LC_WHITE);
