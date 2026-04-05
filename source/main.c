@@ -138,7 +138,7 @@ int main(int argc,char **argv) {
 			break;
 	}
 
-	  u8 perfectfilter[7] = { 0, 0, 21, 22, 21, 0, 0 };
+	  u8 perfectfilter[7] = { 0, 0, 21, 21, 21, 0, 0 };
 	//                           v center line
 	//u8 vfilter[7] = { 6, 7, 9, 10, 9, 7, 6 };
 	//u8 vfilter[7] = { 0, 0, 0, 63, 0, 0, 0 };
