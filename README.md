@@ -5,6 +5,12 @@ animated music thing for the wii
 
 [watch the video](https://youtu.be/Vr-0jVaAAo0) - [project page](https://boxy.neocities.org/stuff/guy/)
 
+## running
+### hardware
+drop unzipped files on sd in `/apps/guy/`. alternatively, drop `guydat.bin` on root of sd and wiiload
+### emulator
+drop `guydat.bin` on root of sd card and launch the dol
+
 ## compiling
 you need libogc 2.11. any newer will break application features. use libdvm i dont think libfat works
 ```
