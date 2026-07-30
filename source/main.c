@@ -1968,10 +1968,10 @@ int main(int argc,char **argv) {
 		GXColor dofColA = {inverseInt, 133, focusInt, 255};
 
 		GX_SetTexCopySrc(0, 0, ltw, lth);
-		GX_SetTexCopyDst(ltw, lth, GX_TF_Z16, GX_FALSE);
+		GX_SetTexCopyDst(ltw, lth, GX_TF_Z8, GX_FALSE);
 		GX_CopyTex(DofDefBufr, GX_FALSE); 
 		GX_PixModeSync();
-		GX_InitTexObj(&DofDefBufrTexObj, DofDefBufr, ltw, lth, GX_TF_Z16, GX_CLAMP, GX_CLAMP, GX_FALSE);
+		GX_InitTexObj(&DofDefBufrTexObj, DofDefBufr, ltw, lth, GX_TF_Z8, GX_CLAMP, GX_CLAMP, GX_FALSE);
 
 		GX_SetTexCopySrc(0, 0, ltw, lth);
 		GX_SetTexCopyDst(ltw, lth, GX_TF_RGBA8, GX_FALSE);
